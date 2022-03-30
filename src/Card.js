@@ -31,7 +31,6 @@ function Card(){
                 </div>
                 <div className="col-6">
                 <Duration title="Starts in" day="12"/>
-
                 </div>
             </div>
             <div className="row">
