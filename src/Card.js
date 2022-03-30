@@ -4,6 +4,7 @@ import StartDate from "./StartDate";
 import Percent from "./Percent";
 import Duration from "./Duration"
 import Article from "./Article"
+import Progress from "./Progress";
 import Msg from "./Msg"
 import User from "./User"
 function Card(){
@@ -35,12 +36,12 @@ function Card(){
             </div>
             <div className="row">
                 <div className="col-12">
-                Progress
+                <Progress></Progress>
                </div>
             </div>
             <div className="row">
                 <div className="col-4">
-                    mini progress
+                    <Progress></Progress>
                 </div>
                 <div className="col-4">
                     <Article/>
