@@ -23,4 +23,4 @@ export default function CustomizedProgressBars({val}) {
       <BorderLinearProgress variant="determinate" value={val} />
     </Box>
   );
-}
+  }
