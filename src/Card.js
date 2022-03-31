@@ -13,15 +13,17 @@ function Card(){
     }
     return (
         <div className="card w-100 rounded mx-3 h-50 py-4 px-2">
-            <div className="grid grid-cols-4">
-                <div className="col-1/3">
+            <div className="grid grid-cols-12">
+                <div className="">
                     <Avatar img={data.img}></Avatar>
                 </div>
-                <div className="col-span-2 text-left">
+                <div className="col-span-4 text-left">
                     <TitleBar/>   
                     <StartDate date="Fri 8 Apr 22:29"/>
                     <Percent/>
                 </div>
+                <div className="col-span-6"/>
+
                 <div className="text-right">
                     Progress
                 </div>
@@ -40,13 +42,15 @@ function Card(){
 
                </div>
             </div>
-            <div className="grid grid-cols-4 mt-1">
-                <div className="">
+            <div className="grid grid-cols-12 mt-1">
+                <div className="col-span-6">
                 <Progress val={20}/>
                 </div>
-                <div className="text-center">
+                <div className="col-span-2 text-center">
                     <Article/>
                 </div>
+                <div className="col-span-2"/>
+
                 <div className="text-right">
                    <Msg nb="0"/>
                 </div>
