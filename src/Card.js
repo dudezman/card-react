@@ -19,7 +19,7 @@ function Card(){
 
                <img src={data.img} alt="" className="w-[72px] h-[72px] rounded-full"></img>
                 <div className="col-span-4  pl-25 text-left">
-                    <TitleBar/>   
+                    <TitleBar/>  <br/> 
                     <StartDate date="Fri 8 Apr 22:29"/>
                     <Percent/>
                 </div>
