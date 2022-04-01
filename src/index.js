@@ -5,7 +5,7 @@ import Card from './Card';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='vh-100 pt-5 w-100 bg-dark d-flex justify-content-center'>
+    <div className='w-full p-5'>
       <Card/>
     </div>
   </React.StrictMode>,
