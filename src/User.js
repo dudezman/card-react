@@ -3,7 +3,7 @@ import PersonIcon from '@mui/icons-material/Person';
 function User({icon,nb}){
     return(
         <>
-         <p className="text-xl">{nb} <PersonIcon/> </p>    
+         <p className="text-sm">{nb} <PersonIcon sx={{ fontSize: 16 }}/> </p>    
         </>
     );
 }

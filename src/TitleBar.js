@@ -3,8 +3,8 @@ import Social from './social';
 function TitleBar(){
     return(
         <>
-        <label className="">
-            <b>AVARA</b> <KeyboardArrowDownIcon className='rotate-180 text-gray-400'/> <Social />
+        <label className="text-sm">
+            <b>AVARA</b> <KeyboardArrowDownIcon className='rotate-180 text-gray-400' sx={{ fontSize: 16 }}/> <Social />
         </label>
         </>
     );

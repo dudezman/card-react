@@ -13,27 +13,25 @@ function Card(){
         img: "https://e7.pngegg.com/pngimages/39/674/png-clipart-dogecoin-cryptocurrency-bitcoin-money-doge-coin-carnivoran-dog-like-mammal.png"
     }
     return (
-        <div className="card w-full border shadow rounded p-10 h-[220px]">
+        <div className="card w-full border shadow rounded p-2 pt-4 h-[180px]">
             <div className="flex justify-between">
                 <div className=" flex justify-start">
-
-               <img src={data.img} alt="" className="w-[72px] h-[72px] rounded-full"></img>
-                <div className="col-span-4  pl-25 text-left">
+               <img src={data.img} alt="" className="w-[56px] h-[56px] rounded-full"></img>
+                <div className="w-full  pl-25 text-left">
                     <TitleBar/>  <br/> 
                     <StartDate date="Fri 8 Apr 22:29"/>
                     <Percent/>
                 </div>
-
                 </div>
                 <div className="text-right">
                     <TinyChart></TinyChart>
                 </div>
             </div>
             <div className="grid grid-cols-2">
-                <div className="">
+                <div className="text-[70%]">
                     <Duration title="Duration" day="3"/>
                 </div>
-                <div className=" text-right">
+                <div className="text-[70%] text-right">
                 <Duration title="Starts in" day="12"/>
                 </div>
             </div>
@@ -45,18 +43,17 @@ function Card(){
                </div>
             </div>
             <div className="grid grid-cols-12 mt-1">
-                <div className="col-span-6">
+                <div className="col-span-5">
                 <Progress val={20}/>
                 </div>
-                <div className="col-span-2 text-center">
+                <div className="col-span-3 text-center">
                     <Article/>
                 </div>
-                <div className="col-span-2"/>
 
-                <div className="text-right">
-                   <Msg nb="0"/>
+                <div className="col-span-2 text-right ">
+                   <Msg nb="0" />
                 </div>
-                <div className="text-right">
+                <div className="col-span-2 text-right">
                 <User nb="1"/>
                 </div>
             </div>

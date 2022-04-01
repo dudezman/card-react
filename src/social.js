@@ -4,9 +4,9 @@ import LanguageIcon from '@mui/icons-material/Language';
 function Social(){
     return(
         <>
-            <TwitterIcon className="text-gray-400"/>
-            <TelegramIcon className="text-gray-400"/>
-            <LanguageIcon className="text-gray-400"/>
+            <TwitterIcon className="text-gray-400" sx={{ fontSize: 16 }}/>
+            <TelegramIcon className="text-gray-400" sx={{ fontSize: 16 }}/>
+            <LanguageIcon className="text-gray-400" sx={{ fontSize: 16 }}/>
         </>
     );
 }

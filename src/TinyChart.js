@@ -11,18 +11,18 @@ function TinyChart(){
   ],
   datasets: [{
     label: 'My First Dataset',
-    data: [300, 100],
+    data: [200, 100],
     backgroundColor: [
-      'rgb(255, 99, 132)',
-      'rgb(255, 205, 86)'
+      '#c57eea',
+      '#31c1eb'
     ],
-    spacing:2,
-    hoverOffset: 4
+    spacing:0,
+    hoverOffset: 1
   }]
 };
     return(
         
-<Doughnut data={data} style={{width:"56px"}} />
+<Doughnut data={data} style={{width:"30px"}} />
     );
 }
 export default TinyChart;
